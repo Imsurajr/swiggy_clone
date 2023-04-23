@@ -191,15 +191,6 @@ class _MenuScreenState extends State<MenuScreen> {
               SizedBox(
                 height: 20,
               ),
-              Column(
-                children: [
-                  Container(
-                    width:  double.infinity,
-                    height: MediaQuery.of(context).size.height * 0.18,
-                    child: Chewie(controller: _chewieController),
-                  ),
-                ],
-              ),
               Row(
                 children: [
                   GestureDetector(
