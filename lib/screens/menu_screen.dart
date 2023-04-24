@@ -34,7 +34,7 @@ class _MenuScreenState extends State<MenuScreen> {
     _videoPlayerController = VideoPlayerController.asset('videos/video1.mp4');
     _chewieController = ChewieController(
       videoPlayerController: _videoPlayerController,
-      maxScale: 5,
+      maxScale: 6,
       autoInitialize: true,
       autoPlay: true,
       looping: true,
@@ -94,7 +94,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 children: [
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                        elevation: 5,
+                        elevation: 8,
                         shape: StadiumBorder(),
                         backgroundColor: Colors.white),
                     onPressed: () {},
@@ -174,7 +174,7 @@ class _MenuScreenState extends State<MenuScreen> {
                         Container(
                           color: Colors.grey,
                           height: 20,
-                          width: 1,
+                          width: 1.1,
                         ),
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 10),
