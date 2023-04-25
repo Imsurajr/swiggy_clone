@@ -26,9 +26,6 @@ class _MenuScreenState extends State<MenuScreen> {
 
   @override
   void initState() {
-    Timer(Duration(seconds: 5), () {
-      setState(() {});
-    });
 
     super.initState();
     _videoPlayerController = VideoPlayerController.asset('videos/video1.mp4');
