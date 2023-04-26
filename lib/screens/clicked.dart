@@ -44,7 +44,7 @@ class _ClickedState extends State<Clicked> {
       body: Column(
         children: [
           Container(
-                height: MediaQuery.of(context).size.height *0.5,
+                height: MediaQuery.of(context).size.height *0.49,
                 width: MediaQuery.of(context).size.width,
                 child: Chewie(controller: _chewieController),
             ),
