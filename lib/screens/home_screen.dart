@@ -299,11 +299,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              Container(
-                width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height * 0.2,
-                child: Chewie(controller: _chewieController),
-              ),
               Row(
                 children: [
                   GestureDetector(
