@@ -88,7 +88,7 @@ class DetailsEdit extends StatelessWidget {
                     children: [
                       Text("PHONE NUMBER" , style: GoogleFonts.openSans( color: Colors.grey[500] , fontWeight: FontWeight.w600), ),
                       SizedBox(height: 3,),
-                      Text("1234567890" , style: GoogleFonts.openSans( color: Colors.grey[600] , fontSize: 17 ,fontWeight: FontWeight.bold), ),
+                      Text("9876543218" , style: GoogleFonts.openSans( color: Colors.grey[600] , fontSize: 17 ,fontWeight: FontWeight.bold), ),
                     ],
                   ),
                 ),
