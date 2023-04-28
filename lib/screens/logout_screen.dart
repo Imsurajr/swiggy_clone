@@ -10,7 +10,7 @@ class LogoutScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        elevation: 0,
+        elevation: 0.1,
         automaticallyImplyLeading: false,
         leading: IconButton(
           onPressed: () {

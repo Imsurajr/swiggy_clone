@@ -576,7 +576,7 @@ class ProfileScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Cheese Burger  (1)",
+                                "Cheese Burger (1)",
                                 style: GoogleFonts.openSans(
                                   color: Colors.grey[700],
                                 ),
