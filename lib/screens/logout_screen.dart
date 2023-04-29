@@ -18,7 +18,7 @@ class LogoutScreen extends StatelessWidget {
           },
           icon: Icon(
             Icons.arrow_back,
-            size: 30,
+            size: 29,
           ),
           color: Colors.black,
         ),
