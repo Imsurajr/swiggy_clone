@@ -29,7 +29,7 @@ class LogoutScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 20,),
+            SizedBox(height: 22,),
             Padding(
               padding:  EdgeInsets.only(left: 18.0),
               child: Text("CURRENT DEVICE" , style: GoogleFonts.openSans(fontWeight: FontWeight.w700 , color: Colors.grey[800]),),
