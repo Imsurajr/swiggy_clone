@@ -24,7 +24,7 @@ class LogoutScreen extends StatelessWidget {
         ),
       ),
       body: Container(
-        width: MediaQuery.of(context).size.width,
+        width: MediaQuery.of(context).size.width*0.999,
         color: Colors.grey[300],
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
